@@ -10,8 +10,6 @@ class Solution {
         for i in (0...m-1).reversed() {
             var total = carry
             let index = A.index(A.startIndex, offsetBy: i)
-            print(A[index])
-            print(B[index])
             if A[index] == "1" {
                 total = total + 1
             } else {
