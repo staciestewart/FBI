@@ -21,7 +21,7 @@ class Solution:
                 # print("increasing b")
                 b +=1
             else:
-                # print("adding value %s to intersecrtion array"%(n1[a]))
+                # print("adding value %s to intersection array"%(n1[a]))
                 intersection.append(n1[a])
                 a +=1
                 b +=1
