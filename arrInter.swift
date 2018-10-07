@@ -1,3 +1,5 @@
+// Given two arrays, write a function to compute their intersection.
+
 class Solution {
     func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
         // Counting length of each input arrays

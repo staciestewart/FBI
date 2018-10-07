@@ -1,3 +1,8 @@
+# Challenge: 
+# Given an array nums, write a function to move all 0's to 
+# the end of it while maintaining the relative order of the 
+# non-zero elements.
+
 # nums is a random list of number
 # create a count and set at 0
 # increment the array from left to right, if non-zero then set to that value
