@@ -23,7 +23,7 @@ class Solution:
                 tl.right = node
                 node.left = tl
             else:
-                hl, tl = node, node
+                hl, tl = node, Node
             if node.right:
                 hr, tr = traverse(node.right)
                 hr.left = node
